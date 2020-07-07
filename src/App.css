@@ -1,0 +1,175 @@
+.circular--square {
+    border-radius: 50%;
+  }
+  body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url(C:\Users\User\Desktop\portfolio\src\water-lily-1510707_1920.jpg);
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  body { 
+    background: url(http://crystal-nguyen.com/img/sky.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin:50px 0px; padding:0px;
+      text-align:center;
+   
+    }
+  
+  container {
+    font-family: "proxima-nova", sans-serif;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  m1, m3 {
+    display: block;
+    text-shadow: 1px 1px 1px rgba(149, 193, 225, .9);
+    -webkit-font-smoothing: antialiased;
+    line-height: 30px;
+   }
+  
+  
+  m1 {
+    letter-spacing: 1.5px;
+    color: #fff;
+    font-size: 2.45em;
+  }
+  
+  m3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.6em;
+   }
+  
+  .formholder {
+    background: rgba(255, 255, 255, .5);
+    width: 500px;
+    height: 500px;
+    border:1px solid rgba(255, 255, 255, .9);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 50px auto;
+    padding: 0px;
+  }
+  
+  .formholder li {
+      list-style-type: none;
+      
+  }
+  
+  .formholder label {
+      color: #666;
+      width: 100%;
+      display: inline-block;
+      text-align: left;
+      padding: 5px;
+    
+    
+  }
+  
+  
+  #name, #email {
+    width: 400px;
+    height: 40px;
+    margin-left: -49px;
+    padding-left: 5px;
+    color: #666;
+    border: 1px solid rgba(204, 204, 204, .5);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-color: #666
+   }
+  
+  #message {
+    resize: none;
+    width: 400px;
+    height: 200px;
+    margin-left: -49px;
+    margin-bottom: -5px;
+    padding-left: 5px;
+    color: #666;
+    border:1px solid rgba(204, 204, 204, .5);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+   
+  }
+  
+  #button {
+    font-family: "proxima-nova";
+    font-weight: 800;
+    width: 150px;
+    height: 30px;
+    margin-left: -49px;
+    background-color: #9b6be9;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    color: #666;
+    border: solid 1px rgba(255, 255, 255, .3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: -10px;
+  }
+   
+  #button:hover {
+    background: #20148b;
+    color: #fff;
+  }
+
+  body { 
+    background-image: url("water-lily-1510707_1920.jpg");
+    background-size: cover;
+    backround-position: center;
+}
+
+.profile {
+  height: 400px;
+  width: 300px;
+  border-radius: 50%;
+}
+  
+  
+  
